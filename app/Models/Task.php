@@ -11,7 +11,7 @@ class Task extends Model
     use HasFactory;
     // Chỉ định tên bảng
     protected $table = 'dataseed';
-    public $fillable = ['title', 'description', 'long_description', 'completed'];
+    public $fillable = ['name', 'description','state'];
 
      // Tắt timestamps
      public $timestamps = false;
